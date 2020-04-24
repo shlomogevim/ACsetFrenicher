@@ -25,17 +25,7 @@ class MainActivity : AppCompatActivity() {
                 BOTTOM_SHEET_PEEK_HEIGHT,
                 resources.displayMetrics
             ).toInt()
-       /* bottomSheetBehavior.addBottomSheetCallback(object :
-        BottomSheetBehavior.BottomSheetCallback(){
-            override fun onSlide(bottomSheet: View, slideOffset: Float) {
-                bottomSheet.bringToFront()
-            }
 
-            override fun onStateChanged(bottomSheet: View, newState: Int) {
-                TODO("Not yet implemented")
-            }
-
-        })*/
     }
 
 }
